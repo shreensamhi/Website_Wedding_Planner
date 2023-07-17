@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <style>
+      input.submit {
+        background-color: black;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input.search {
+        width: 600px;
+        height: 25px;
+      }
+      input.fit {
+        width: fit-content;
+        height: fit-content;
+      }
+      input.message {
+        width: 600px;
+        height: 50px;
+      }
+      .container {
+        float: right;
+        width: 55%;
+      }
+      body {
+          background-image: url('11.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      em {
+        margin: 0%;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        white-space: nowrap;
+      }
+      p {
+        float: left;
+        width: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: inline-block; vertical-align: top">
+      <img src="1.png" alt="img" height="280px" width="650px" />
+    </div>
+
+    <div
+      style="
+        display: inline-block;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: auto;
+      "
+    >
+      <em
+        ><a href="Welcome.html">Welcome</a>&emsp;&emsp;&emsp;Services&emsp;&emsp;&emsp;<a href="galary.html">Gallery</a>&emsp;&emsp;&emsp;Testimonials&emsp;&emsp;&emsp;
+        <a href="about us.html">About us</a>&emsp;&emsp;&emsp;<a href="Contact us.html">Contact us</a></em
+      ><br />
+    </div>
+    <br /><br />
+    <p>
+      We look forward to hearing from you! Tell me anything you want me to know
+      about your big day. (If you don't get in touch within 48 hours, check your
+      spam folder.)
+    </p>
+
+    <div class="container">
+      <form name="myform">
+        <lable for="firstname">Full name</lable><br />
+
+        <input type="text" name="na" class="search" /><br /><br />
+
+        <lable for="email">Email</lable><br />
+
+        <input type="email" name="em" class="search" /><br /><br />
+
+        <label for="phone">Phone Number</label><br />
+
+        <input type="text" name="no" class="search" /><br /><br />
+
+        <lable for="ame">Event date</lable><br />
+
+        <input type="text" name="nsa" class="search" /><br /><br />
+
+        <lable for="message">Message</lable><br />
+
+        <input type="text" name="name" class="message fit" /><br /><br />
+
+        <input type="submit" value="Submit" class="submit" /><br /><br />
+      </form>
+    </div>
+  </body>
+</html>
